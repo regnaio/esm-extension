@@ -2,9 +2,22 @@
 
 ## Background
 
+### TS Docs
+[ESM Module Syntax](https://www.typescriptlang.org/docs/handbook/modules/reference.html#module-syntax)
+```ts
+// @Filename: main.ts
+import { f, type SomeInterface } from "./module.js";
+import type { SomeType } from "./module.js";
+```
+
 ### Node Docs
 [ESM: Mandatory File Extensions](https://nodejs.org/api/esm.html#mandatory-file-extensions)
 > A file extension must be provided when using the import keyword to resolve relative or absolute specifiers. Directory indexes (e.g. './startup/index.js') must also be fully specified.
+
+### sindresorhus gist
+[Source](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
+> #### How can I make my TypeScript project output ESM?
+> You must use a .js extension in relative imports even though you're importing .ts files.
 
 ### Google AI Overview
 > In JavaScript ECMAScript Modules (ESM), file extensions are mandatory when using relative or absolute import specifiers in most modern runtimes.
