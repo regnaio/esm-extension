@@ -14,6 +14,13 @@
 ### Why this may have not been an issue before
 > Bundlers: Tools like Webpack, Vite, or esbuild can be configured to resolve extensions automatically, allowing you to omit them during development.
 
+### `tsconfig`
+These lines in `tsconfig.json` enforce ESM file extensions in import statements:
+```json
+"module": "NodeNext",
+"moduleResolution": "NodeNext",
+```
+
 ---
 
 ## Node Docker environment (optional):
