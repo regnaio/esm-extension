@@ -1,4 +1,4 @@
-# `navcat` `NodeNext` module resolution repro
+# Repro: ESM `NodeNext` requiring `navcat` to include file extensions in import statements
 
 ## Background
 
