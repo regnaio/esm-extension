@@ -1,10 +1,9 @@
 {
     "name": "esm-extension",
     "version": "0.0.1",
-    "private": true,
     "type": "module",
     "scripts": {
-        "check": "tsc"
+        "build": "tsc"
     },
     "dependencies": {
         "navcat": "0.3.0"
