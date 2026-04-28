@@ -36,12 +36,16 @@ npm run build
 
 ## Sample Errors:
 ```shell
-node_modules/mathcat/dist/index.d.ts:2:15 - error TS2834: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Consider adding an extension to the import path.
+node_modules/mathcat/dist/index.d.ts:2:15 - error TS2834:
+Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'.
+Consider adding an extension to the import path.
 
 2 export * from './types';
                 ~~~~~~~~~
 
-node_modules/mathcat/dist/index.d.ts:3:23 - error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './vec2.js'?
+node_modules/mathcat/dist/index.d.ts:3:23 - error TS2835:
+Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'.
+Did you mean './vec2.js'?
 
 3 export * as vec2 from './vec2';
                         ~~~~~~~~
