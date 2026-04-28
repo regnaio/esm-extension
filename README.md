@@ -57,3 +57,9 @@ Did you mean './vec2.js'?
 3 export * as vec2 from './vec2';
                         ~~~~~~~~
 ```
+
+---
+
+## Related PRs:
+- https://github.com/isaac-mason/navcat/pull/51
+- https://github.com/isaac-mason/mathcat/pull/3
